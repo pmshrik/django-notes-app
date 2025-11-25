@@ -23,9 +23,6 @@ pipeline {
             steps { dockerLogin() }
         }
 
-        stage('Push Image') {
-            steps { dockerPush() }
-        }
 
     }
 }
